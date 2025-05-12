@@ -48,7 +48,6 @@ button{
     font-size: 18px;
     padding: 7px 1em;
     width: 120px;
-    background-color: #3882F6;
     border-radius: 8px;
 }
 
@@ -110,8 +109,46 @@ main h1{
     font-size: larger;
 }
 
-blockquote footer{
+blockquote p{
     justify-self: flex-end;
     padding-top: 1em;
 }
 
+.sign-in-area { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+}
+
+.blue-box{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blue-box .right{
+    align-content: center;
+    align-items: center;
+    border: 2px solid #FFF;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+footer{
+    display: flex;
+    background-color: #071529;
+    /* margin-bottom: -10px; */
+    padding-top: 40px;
+    justify-content: center;
+}
+
+footer p{
+    align-self: center;
+    padding-bottom: 30px;
+}
